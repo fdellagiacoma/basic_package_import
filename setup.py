@@ -15,4 +15,4 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/fdellagiacoma/basic_package_import',
     license='MIT',
-    packages=setuptools.find_packages()
+    packages=setuptools.find_packages())
