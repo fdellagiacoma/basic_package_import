@@ -13,4 +13,5 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/fdellagiacoma/basic_package_import',
     license='MIT',
+    py_modules=['package']
 )
