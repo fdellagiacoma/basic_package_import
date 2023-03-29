@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 print(long_description)
 
 setuptools.setup(
-    name='basicimport',
+    name='basic_package_import',
     version='0.0.3',
     author='Santo padre',
     author_email='',
