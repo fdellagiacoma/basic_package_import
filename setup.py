@@ -15,6 +15,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/fdellagiacoma/basic_package_import',
     license='MIT',
-    packages=setuptools.find_packages(include=['basic_package_import','pocalamadonna']),
+    packages=setuptools.find_packages(include=['basic_package_import'],
+                                      exclude=['basic_package_import-1.0.0.dist-info']),
     install_requires=['peppercorn'],
 )
