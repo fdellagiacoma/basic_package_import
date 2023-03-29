@@ -7,7 +7,7 @@ merges the data to produce CostReporting input
 """
 
 
-from package.utils_cloud import cloud_function
+from basic_package_import.utils_cloud import cloud_function
 
 
 def lambda_handler(event, context):
