@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "basicpackageimport"
+name = "basicimport"
 version = "0.0.1"
 authors = [
   { name="Example Author", email="author@example.com" },
